@@ -1,0 +1,50 @@
+.container-list {
+    background-color: white;
+}
+.list-item-card{
+    position: relative;
+    background-color: #bbdefb;
+    align-items: center;
+    height: 320px;
+    border: 2px;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 4px;
+}
+.img{
+    width: 100%;
+    border-radius: 8px;
+}
+.type{
+    position: absolute;
+    top:10px;
+    left:10px;
+    color: #000;
+}
+.time{
+    position: absolute;
+    top:215px;
+    right: 10px;
+    color: #000;
+}
+.original-url{
+    position: absolute;
+    right: 10px;
+    bottom: 16px;
+    font-size: 16px;
+    color: #03a9f4;
+    font-weight: bold;
+}
+.original-url-hover{
+    color: #f44336;
+}
+.desc{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.who{
+    font-size: 12px;
+    margin-top: 8px;
+}

@@ -1,0 +1,14 @@
+<view class="container-list">
+
+    <scroll-view scroll-x="true" style="width: 100%" bindscroll="scroll" bindscrolltoupper="scrollToTop" bindscrolltolower="scrollToBottom" wx:for="{{items}}" wx:for-item="item">
+        <view class="list-item-card" bindtap="onItemClick">
+            <image mode="aspectFit" class="img" src="{{item.src}}"/>
+            <view class="type">{{item.type}}</view>
+            <view class="time">{{item.time}}</view>
+            <view class="desc">{{item.desc}}</view>
+            <view class="who">作者：{{item.who}}</view>
+            <navigator hover-class="original-url-hover" class="original-url" url="{{item.url}}">原文</navigator>
+        </view>
+    </scroll-view>
+
+</view>
